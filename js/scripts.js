@@ -2,7 +2,6 @@
 let resultsForAdding = "";
 function add(number1, number2) {
   return number1 + number2;
-
 }
 
 function subtract(number1, number2) {
@@ -28,7 +27,7 @@ function allTheProblems(number1, number2) {
   "The multiplication of your numbers equals: " + resultMulitply;
 }
 
-function allTheProblemsChallenging (number1, number2) {
+function allTheProblemsChallenging(number1, number2) {
   resultAdd = add(number1,number2);
   resultSub = subtract(number1,number2);
   resultDiv = multiply(number1, number2);
@@ -39,11 +38,12 @@ function allTheProblemsChallenging (number1, number2) {
   number1 + " * " + number2 + " = "  + resultMulitply;
 }
 
-
 // user interface logic 
 const number1 = prompt("Enter a number:");
 const number2 = prompt("Enter another number:");
 
 
 alert(allTheProblemsChallenging(parseInt(number1), parseInt(number2)));
+
+
 
